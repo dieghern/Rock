@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f23059716a496d45872d4ad7621b2d0, type: 3}
+  m_Name: HeavyRock
+  m_EditorClassIdentifier: Assembly-CSharp::GetThisRock.Contract
+  contractId: 003
+  displayName: "03 \xB7 Zona de obras"
+  mapScene: GardenRock
+  targetId: garden-rock
+  deliveryZoneId: roadside
+  description: "Dos peque\xF1as y dos medianas entre suministros de obra."
+  objective: Entrega todas las rocas y pulsa Enter.
+  successCondition: 0
+  reward: 130
+  experienceReward: 70
+  requiredLevel: 3
+  minimumIntegrity: 0
+  rocks:
+  - mass: 6
+    diameter: 0.35
+    position: {x: -1, y: 0.255, z: -0.5}
+  - mass: 8
+    diameter: 0.4
+    position: {x: 2, y: 0.28, z: -1}
+  - mass: 85
+    diameter: 1.1
+    position: {x: 0.3, y: 0.63, z: 1}
+  - mass: 100
+    diameter: 1.2
+    position: {x: 2.5, y: 0.68, z: 1}
+  scenario: 2
+  scenarioSeed: 3911
+  rockMass: 280
+  rockDiameter: 1.85
+  spawnPosition: {x: 0, y: 1.05, z: -1}
+  requiredCompletedContracts: 2

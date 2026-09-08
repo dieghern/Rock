@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c88de7db8e00649a0a4bd14278a06a, type: 3}
+  m_Name: RockContent
+  m_EditorClassIdentifier: Assembly-CSharp::GetThisRock.GameContent
+  contracts:
+  - {fileID: 11400000, guid: d7a0ea7a8743a1d4ea159f9fe0a2d178, type: 2}
+  - {fileID: 11400000, guid: 1e21fb4c8bc061b429c213532d096225, type: 2}
+  - {fileID: 11400000, guid: 71dafb1f197f7944d8292137bfb26929, type: 2}
+  - {fileID: 11400000, guid: 98b7b3bb2e5744848bb2be87ae3a23dc, type: 2}
+  tools:
+  - {fileID: 11400000, guid: d62f83b1587d4a140b19e925def7c8e7, type: 2}
+  - {fileID: 11400000, guid: db0f8db3afc001649aa5da7f0b492beb, type: 2}
+  - {fileID: 11400000, guid: 36cd3204aee327448a2f99fa223c2ba3, type: 2}
+  - {fileID: 11400000, guid: b3245ea9d7011b44bb784bfa2fe4e586, type: 2}
+  tabletPrefab: {fileID: 4011490922870358094, guid: db8ab41232926b7429f80db7b648e194, type: 3}
+  handPrefab: {fileID: 4363457233793401622, guid: 5f0a305caa3759c4b95e7e96bd0606f9, type: 3}
+  toolMaterial: {fileID: 2100000, guid: 3e59357c06da20443b263fd4d93f5884, type: 2}
+  rockMaterial: {fileID: 2100000, guid: 66f3066106888ca4ca9b9eabc3231206, type: 2}
+  grassMaterial: {fileID: 2100000, guid: 75522afd37cca5942945532dd9cd8734, type: 2}
+  dirtMaterial: {fileID: 2100000, guid: 3ab9c5ce00a6276468c4d956d073d073, type: 2}
+  woodMaterial: {fileID: 2100000, guid: fcafa3c5e39681b40a0ca6fcfeff7a85, type: 2}
+  leavesMaterial: {fileID: 2100000, guid: cbdad5ad5d7230346a6c38ac35f51ae3, type: 2}
